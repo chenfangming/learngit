@@ -1,0 +1,4 @@
+1、 BJCAROOT
+放在安装windows操作系统的根目录下，例如C:\
+2、test 是单点登录集成的示例程序
+重点请看 receiveticket.jsp 即可

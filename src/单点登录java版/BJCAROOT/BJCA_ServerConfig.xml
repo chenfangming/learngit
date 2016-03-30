@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="gbk"?>
+<bjcaroot>
+    <version>2</version>
+    <devices>
+        <device>
+            <name>JKSsoft</name>
+            <providertype>4</providertype>
+            <provider>java</provider>
+            <privatedll />
+        </device>
+        <device>
+            <name>P12</name>
+            <providertype>3</providertype>
+            <provider />
+            <privatedll />
+        </device>
+    </devices>
+    <trustcerts>
+        <trustcert>
+            <alias>ca2crl0</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>ca2crl0.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>ca3crl0</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>ca3crl0.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>ca5crl0</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>ca5crl0.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>ca7crl0</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>ca7crl0.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>ca6crl0</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>ca6crl0.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>ca1crl0</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>ca1crl0.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>CA0A01</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>CA0A01.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>ca4crl0</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>ca4crl0.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+        <trustcert>
+            <alias>CA0E02</alias>
+            <subjec />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <crldistributionpoin>
+                <url />
+                <localpath>CA0E02.crl</localpath>
+            </crldistributionpoin>
+        </trustcert>
+    </trustcerts>
+    <certs>
+        <cert>
+            <container>1000001</container>
+            <uniqid />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <subjectname>服务器证书一</subjectname>
+            <dept>BJCA</dept>
+            <issueName>BJCA</issueName>
+            <avail>1</avail>
+            <tradetype>1002</tradetype>
+            <devicename>JKSsoft</devicename>
+            <trustcert />
+            <password>bjca543</password>
+            <keytype>1</keytype>
+            <keynode>
+                <signature>
+                    <serialnum>20000000000001125373</serialnum>
+                </signature>
+                <exchange>
+                    <serialnum>20000000000001125373</serialnum>
+                </exchange>
+            </keynode>
+        </cert>
+        <cert>
+            <container>1000003</container>
+            <uniqid />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <subjectname>服务器身份证书</subjectname>
+            <dept>bjcayy</dept>
+            <issueName>BeiJing GCA</issueName>
+            <avail>1</avail>
+            <tradetype>1002</tradetype>
+            <devicename>JKSsoft</devicename>
+            <trustcert />
+            <password>316c0588</password>
+            <keytype>1</keytype>
+            <keynode>
+                <signature>
+                    <serialnum>10000000000000100128</serialnum>
+                </signature>
+                <exchange>
+                    <serialnum>10000000000000100128</serialnum>
+                </exchange>
+            </keynode>
+        </cert>
+        <cert>
+            <container>1000002</container>
+            <uniqid />
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <subjectname>服务器证书二</subjectname>
+            <dept>BJCA</dept>
+            <issueName>BJCA</issueName>
+            <avail>1</avail>
+            <tradetype>1002</tradetype>
+            <devicename>P12</devicename>
+            <trustcert />
+            <password>429bjca</password>
+            <keytype>1</keytype>
+            <keynode>
+                <signature>
+                    <serialnum>20000000000001125388</serialnum>
+                </signature>
+                <exchange>
+                    <serialnum>20000000000001125388</serialnum>
+                </exchange>
+            </keynode>
+        </cert>
+    </certs>
+    <webapps>
+        <webapp>
+            <name>BJCASecXV2Default</name>
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <debug>false</debug>
+            <container>1000003</container>
+            <certverify>
+                <catype>ca5crl0;ca3crl0;ca2crl0;ca7crl0;ca6crl0;CA0A01;ca1crl0;ca4crl0</catype>
+                <policytype>2</policytype>
+                <verifytime>0</verifytime>
+                <prohibitlist />
+            </certverify>
+        </webapp>
+        <webapp>
+            <name>SecXV3COM</name>
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <debug />
+            <container>1000002</container>
+            <certverify>
+                <catype>ca5crl0;ca3crl0;ca2crl0;ca7crl0;ca6crl0;CA0A01;ca1crl0;ca4crl0</catype>
+                <policytype>2</policytype>
+                <verifytime>0</verifytime>
+                <prohibitlist />
+            </certverify>
+        </webapp>
+        <webapp>
+            <name>SecXV3Default</name>
+            <uniqidoid>2.16.840.1.113732.2</uniqidoid>
+            <debug />
+            <container>1000001</container>
+            <certverify>
+                <catype>ca5crl0;ca3crl0;ca2crl0;ca7crl0;ca6crl0;CA0A01;ca1crl0;ca4crl0</catype>
+                <policytype>2</policytype>
+                <verifytime>0</verifytime>
+                <prohibitlist />
+            </certverify>
+        </webapp>
+    </webapps>
+</bjcaroot>
+
